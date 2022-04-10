@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(199, 220, 252);
+}
+
+.heading {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 47px;
+}
+
+.container {
+    margin-bottom: 15px;
+    position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    background: contain;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    height: 20%;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    margin-bottom: 2em;
+    background-color: aliceblue;
+}
+
+.images { 
+    width: 100%;
+    height: auto;
+    background: contain;
+}
+
+.title {
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-size: 19px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p {
+    font-size: 18px;
+}
